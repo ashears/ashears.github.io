@@ -12,4 +12,4 @@ pool:
 steps:
 - script: |
   npm install htmllint
-  htmllink index.html style.css
+  htmllint index.html style.css
