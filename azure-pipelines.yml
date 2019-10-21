@@ -11,7 +11,6 @@ pool:
 
 steps:
 - bash: |
-    sudo npm install htmllint-cli
-    ls
+    sudo npm install -g htmllint-cli
     htmllint index.html style.css
   displayName: Run htmllint
