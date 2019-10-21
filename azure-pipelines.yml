@@ -11,6 +11,6 @@ pool:
 
 steps:
 - script: |
-    npm install htmllint
+    npm install -g htmllint-cli
     htmllint index.html style.css
   displayName: Run htmllint
