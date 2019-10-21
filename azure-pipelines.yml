@@ -10,7 +10,8 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: |
-    npm install htmllint-cli
+- bash: |
+    sudo npm install htmllint-cli
+    ls
     htmllint index.html style.css
   displayName: Run htmllint
