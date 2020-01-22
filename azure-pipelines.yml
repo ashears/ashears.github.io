@@ -17,6 +17,5 @@ steps:
 
 - script: |
     npm install -g htmllint-cli
-    htmllint init
-    htmllint index.html style.css
+    htmllint index.html style.css calculator.html
   displayName: 'Lint'
