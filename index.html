@@ -5,19 +5,35 @@
     <meta name="author" content="Ashton Shears">
     <meta name="description" content="My personal website">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="utf-8">
 </head>
 <body>
-    <header class="topnav">
-    <nav class="navi_left">
-    </nav>
-    <nav class="navi_right">
-        <a href="https://www.amazon.com/s?i=stripbooks&rh=p_27%3AAshton+Shears&s=relevancerank&text=Ashton+Shears&ref=dp_byline_sr_book_1">Books</a>
-        <a href="https://medium.com/@shears.ash">Blog</a>
-        <a href="https://www.linkedin.com/in/ashtonshears/t">LinkedIn</a>
-        <a href="projects.html">Projects</a>
-    </nav>
-    </header>
+    <div class="topnav" id="myTopnav">
+        <a class="fa fa-home" href="#home" class="active" style="font-size:20px"></a>
+        <nav class="navi_right">
+            <a href="https://www.amazon.com/s?i=stripbooks&rh=p_27%3AAshton+Shears&s=relevancerank&text=Ashton+Shears&ref=dp_byline_sr_book_1">Books</a>
+            <a href="https://medium.com/@shears.ash">Blog</a>
+            <a href="https://www.linkedin.com/in/ashtonshears/t">LinkedIn</a>
+            <a href="projects.html">Projects</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </div>
+      
+    <script>
+    function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+    }
+    </script>
+
     <section>
         <h1>Ashton Shears</h1>
         <img src="wiz.png" alt="Wizard" class="centralimg"><br>
