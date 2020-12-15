@@ -16,6 +16,6 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    npm install -g htmllint-cli
-    htmllint index.html style.css calculator.html
+    npm install @linthtml/linthtml --save-dev
+    npx linthtml index.html style.css calculator.html
   displayName: 'Lint'
