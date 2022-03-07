@@ -4,6 +4,8 @@ Here is some of what I was up to this past week:
 I started on a multi painting decoration for my home. I have been wanting to decorate this space for a long while, I am excited!
 
 A section of a larger multi-painting display in-progress
+![2 of 5 in painting set](https://raw.githubusercontent.com/ashears/ashears.github.io/master/1_GD14XsQTOUSP0MOwdVEgLA@2x.jpeg)
+
 Finalizing my next journal — it is powerful. Will post more info soon.
 Tried out modeling clay, and made a snake shaped hummingbird feeder. I enjoyed working with this modeling clay, I plan on doing more. I am continuing to paint this project.
 ## Reading
