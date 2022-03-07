@@ -12,9 +12,9 @@ The four virtues of Stoicism are Wisdom, Courage, Justice, Temperance. These hav
 I also read some manga this week.
 ## New Morning Routine
 I am trying out a new morning routine. I was inspired by Andrew Huberman, his podcast is so valuable that I guarantee it can change your life.
-Immediately after waking up, Yoga Nidra. Laying down meditative yoga. Helps to bring you into your body and out of the mind in the morning. Can find simple practices on YouTube.
-Get 10–30 minutes of outdoor light. Does not matter if it is cloudy or rainy.
-## Morning Journal
+- Immediately after waking up, Yoga Nidra. Laying down meditative yoga. Helps to bring you into your body and out of the mind in the morning. Can find simple practices on YouTube.
+- Get 10–30 minutes of outdoor light. Does not matter if it is cloudy or rainy.
+- Morning Journal
 Here is a link where Dr. Huberman gives a strong overview of why morning routines are valuable: https://www.youtube.com/watch?v=s4Qk3p8X8dM
 ## Work Update
 Things are going well for me in my role as Software Engineer & Scrum Master for Teradata’s BAR Engineering team. We have a few software projects being developed, and are also testing some new hardware.
