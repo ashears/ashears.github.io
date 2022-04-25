@@ -17,9 +17,9 @@ body {
 section{
     text-align: center;
 }
+
 h1 {
-    font-size: 3.5em;
-    font-weight: 500;
+  padding-left:50px;
 }
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -109,4 +109,113 @@ display: none;
 
 .social-links li {
     display: inline-block;
+}
+
+
+
+
+/*Sidebar CSS*/
+/* The side navigation menu */
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  /* Sidebar links */
+  .sidebar a {
+    display: block;
+    color: black;
+    /*padding: 16px;*/
+    text-decoration: none;
+  }
+  
+  /* Active/current link */
+  .sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Links on mouse-over */
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  /* On screens that are less than 700px wide, make the sidebar into a topbar */
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+  
+
+
+  /*CSS for position image over texts in sidebar, TODO clean up*/
+
+   /* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } 
+
+
+
+  @font-face {
+    font-family: EagleLake;
+    src: url(fonts/EagleLake-Regular.ttf);
+}
+  
+.sidebarimagetext {
+    font-family: EagleLake;
+    color: white;
+    font-size: 36px;
+}
+
+.flexContainer {
+  display:flex;
+  max-height:200px;
+  
+}
+.flexContainer > img {
+flex:1;
+border:1px solid;
+margin:1px;
+  max-width:33%;
+  max-height:200px;
+  object-fit: cover;
+
+
 }
