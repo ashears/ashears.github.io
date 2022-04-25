@@ -18,6 +18,9 @@ section{
     text-align: center;
 }
 
+h1 {
+  padding-left:50px;
+}
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
