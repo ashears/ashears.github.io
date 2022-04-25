@@ -22,16 +22,16 @@
     <meta property="og:image" content="images/wiz.png" />
 </head>
 <body>
-    <div class="topnav" id="myTopnav">
+    <!-- <div class="topnav" id="myTopnav">
         <a class="fa fa-home" href="#home" class="active" style="font-size:20px"></a>
             <a href=https://amzn.to/3mljgGi">Books</a>
             <a href="https://ashears.medium.com/">Blog</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
               <i class="fa fa-bars"></i>
             </a>
-    </div>
-      
-    <script>
+    </div> -->
+    
+    <!-- <script>
     function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
@@ -40,15 +40,70 @@
         x.className = "topnav";
     }
     }
-    </script>
+    </script> -->
 
+<!-- The sidebar -->
+<!-- <div class="sidebar">
+    <div class="container">
+        <a href="#Journal">
+            <picture>
+                <img src="images/test.JPG" alt="Ashton Shears Journals" style="width:100%">
+            </picture>
+            <div class="centered sidebarimagetext">Journals</div>
+        </a>
+    </div>
+    <div class="container" style="border-style: solid; border-color:blueviolet;">
+        <a href="https://instagram.com/ashears_art">
+            <picture>
+                <img src="images/artbutton.jpg" alt="Ashton Shears Journals" style="width:100%;">
+            </picture>
+            <div class="centered sidebarimagetext">Art</div>
+        </a>
+    </div>
+
+  </div> -->
+  
     <section>
-        <h1>Ashton Shears</h1>
+        <div class="sidebarimagetext flexContainer">
+            <picture>
+                <source type="image/webp" srcset="images/wiz.webp">
+                <img src="images/wiz.png" alt="Ashton Shears" style="height:100%;">
+            </picture>
+            <h1>Ashton Shears</h1>
 
-        <picture>
-            <source type="image/webp" srcset="images/wiz.webp">
-            <img src="images/wiz.png" alt="Ashton Shears">
-        </picture>
+
+    </div>
+        <div class="flexContainer">
+            <div class="container" style="max-height: 200px; width: 33%; object-fit: cover;">
+                <a href="https://ashton.website/journals">
+                    <picture>
+                        <img src="images/test.JPG" alt="Ashton Shears Journals" style="width:100%; max-height: 200px; object-fit: cover;">
+                    </picture>
+                    <div class="centered sidebarimagetext">Journals</div>
+                </a>
+            </div>
+
+            <div class="container" style="max-height: 200px; width: 33%; object-fit: cover;">
+                <a href="https://instagram.com/ashears_art">
+                    <picture>
+                        <img src="images/artbutton.jpg" alt="Ashton Shears Journals" style="width:100%; max-height: 200px; object-fit: cover;">
+                    </picture>
+                    <div class="centered sidebarimagetext">Art</div>
+                </a>
+            </div>
+            <!-- <img src="images/test.JPG" alt="Ashton Shears Journals"> -->
+            <div class="container" style="max-height: 200px; width: 33%; object-fit: cover;">
+                <a href="https://ashears.medium.com">
+                    <picture>
+                        <img src="images/test.JPG" alt="Ashton Shears Journals" style="width:100%; max-height: 200px;">
+                    </picture>
+                    <div class="centered sidebarimagetext">Blog</div>
+                </a>
+            </div>
+        </div>
+
+
+
         <p>To reach me, email shears.ash@gmail.com</p>
     </section>
     <div class="social">
@@ -87,3 +142,6 @@
     </div>
 </body>
 </html>
+
+
+<!-- https://dev.to/codeply/bootstrap-5-sidebar-examples-38pb SIDEBAR NAV UP -->
