@@ -438,6 +438,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   position: relative;
   text-align: center;
   color: #0d1e2d;
+  flex-basis: 50%;
 }
 .social a span {
   display: inline-block;
