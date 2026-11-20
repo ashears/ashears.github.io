@@ -1,113 +1,89 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Websites and apps by Ashton Shears.">
+  <title>Ashton Shears</title>
+  <style>
+    body {
+      max-width: 38rem;
+      margin: clamp(2rem, 8vw, 5rem) auto;
+      padding: 0 1.25rem;
+      font-family: system-ui, sans-serif;
+      line-height: 1.6;
+    }
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162162717-3"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    h1, h2 {
+      line-height: 1.2;
+    }
 
-    gtag('config', 'UA-162162717-3');
-    </script>
+    h2 {
+      margin-top: 2rem;
+      font-size: 1.25rem;
+    }
 
-    <title>Ashton Shears - My personal website</title>
-    <meta name="author" content="Ashton Shears">
-    <meta name="description" content="Tech, Art, & Writing">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <meta charset="utf-8">
-    <meta property="og:image" content="images/wiz.png" />
-</head> 
+    ul {
+      padding-inline-start: 1.25rem;
+    }
 
+    li + li {
+      margin-top: 0.75rem;
+    }
+
+    li p {
+      margin: 0;
+    }
+
+    a {
+      text-underline-offset: 0.15em;
+    }
+
+    a:focus-visible {
+      outline: 2px solid currentColor;
+      outline-offset: 3px;
+    }
+
+    footer {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1rem;
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid GrayText;
+    }
+  </style>
+</head>
 <body>
-    <section>
-        <div class="sidebarimagetext flexContainer">
-            <picture>
-                <!-- <source type="image/webp" srcset="images/wiz.webp"> -->
-                <img src="images/me.png" alt="Ashton Shears" style="height:100%;">
-            </picture>
-            <h1>Ashton Shears</h1>
-            <!--<p style="font-size: 18px;">
-                My personal website, that I use to show my projects.
-            </p>-->
-    </div>
-
-    <section>
-        <a href="https://instagram.com/ashears_art">
-        <div style="display: flex; align-items: center;justify-content: space-around;"> <!--Art-->
-            <div style="flex-basis: 33.3%;">
-                <h3>Art</h3>
-                <p>Mostly do abstract acrylic painting.</p>
-            </div>
-            <picture style="flex-basis: 66.6%;">
-                <img src="images/artbutton.jpg" alt="Ashton Shears Journals" style="width:100%; max-height: 400px; object-fit: cover;">
-            </picture>
-        </div>
-        </a>
-        <div style="display: flex; align-items: center;justify-content: space-around;"> <!--Art-->
-            <picture style="flex-basis: 66.6%;">
-                <img src="images/test.JPG" alt="Ashton Shears Journals" style="width:100%; max-height: 400px; object-fit: cover;">
-            </picture>  
-            <div style="flex-basis: 33.3%;">
-                <h3>Journals</h3>
-                <p>I make journals! check them out!!! :)
-                    My journals are magical.
-                </p>
-            </div>
-
-        </div>
-        <div style="display: flex; align-items: center;justify-content: space-around;"> <!--Art-->
-            <div style="flex-basis: 33.3%;">
-                <h3>Blog</h3>
-                <p>My writing.</p>
-            </div>
-            <picture style="flex-basis:66.6%;">
-                <img src="images/IMG-1876.jpg" alt="Ashton Shears Journals" style="width:100%; max-height: 400px;object-fit: cover;">
-            </picture>
-        </div>
-    </section>
-        <p>To reach me, email shears.ash@gmail.com</p>
-    </section>
-    <div class="social">
-        <ul class="social-links">
-            <li>
-                <a href="https://linkedin.com/in/ashtonshears">
-                    <i class="fa fa-linkedin"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://github.com/ashears">
-                    <i class="fa fa-github"></i>
-                </a>
-            </li>
-            <li>
-                <a href="mailto:shears.ash@gmail.com">
-                    <i class="fa fa-envelope"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://instagram.com/ashears_art">
-                    <i class="fa fa-instagram"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://twitter.com/ashton_shears">
-                    <i class="fa fa-twitter"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://ashears.medium.com/">
-                    <i class="fa fa-medium"></i>
-                </a>
-            </li>
-        </ul>
-    </div>
+  <header>
+    <h1>Ashton Shears</h1>
+  </header>
+  <main>
+    <h2>My Sites</h2>
+    <ul>
+      <li>
+        <a href="https://ashton.website/MTG-Pack-Battle/">MTG Pack Battle</a>
+        <p>One-booster Magic format and starting-token randomizer.</p>
+      </li>
+      <li>
+        <a href="https://ashton.website/kaomoji/">Kaomoji</a>
+        <p>Copyable Unicode text faces.</p>
+      </li>
+      <li>
+        <a href="https://ashton.website/neskowin-coast-fighter/">Neskowin Coast Fighter</a>
+        <p>Browser fighting game inspired by the Oregon coast.</p>
+      </li>
+      <li>
+        <a href="https://marketplace.visualstudio.com/items?itemName=AshtonShears.ash-vscode-tools">Ash VS Code Tools</a>
+        <p>PDF reader and citation tools for VS Code.</p>
+      </li>
+    </ul>
+  </main>
+  <footer>
+    <a href="https://github.com/ashears">GitHub</a>
+    <a href="https://linkedin.com/in/ashtonshears">LinkedIn</a>
+    <a href="mailto:shears.ash@gmail.com">Email</a>
+  </footer>
 </body>
 </html>
-
-
-<!-- https://dev.to/codeply/bootstrap-5-sidebar-examples-38pb SIDEBAR NAV UP -->
