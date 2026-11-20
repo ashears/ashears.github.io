@@ -1,3 +1,8 @@
+:root {
+  background-color: Canvas;
+  color: CanvasText;
+}
+
 body {
   max-width: 38rem;
   margin: clamp(2rem, 8vw, 5rem) auto;
