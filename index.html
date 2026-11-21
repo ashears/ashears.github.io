@@ -4,44 +4,136 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
-  <meta name="description" content="Websites and apps by Ashton Shears.">
-  <title>Ashton Shears</title>
+  <meta name="description" content="Ashton Shears’ personal site. Explore browser games, small web tools, and a VS Code extension for reading PDFs.">
+  <title>Ashton Shears — Projects &amp; Writing</title>
   <link rel="stylesheet" href="/assets/css/personal-site.css">
 </head>
 <body>
-  <header>
-    <h1>Ashton Shears</h1>
-    <a href="/blog/">Blog</a>
-  </header>
-  <main>
-    <h2>My Sites</h2>
-    <ul>
-      <li>
-        <a href="https://ashton.website/ashton-recipes/">Recipes</a>
-        <p>Personal cookbook with ingredient lists and short cooking steps.</p>
-      </li>
-      <li>
-        <a href="https://ashton.website/MTG-Pack-Battle/">MTG Pack Battle</a>
-        <p>One-booster Magic format and starting-token randomizer.</p>
-      </li>
-      <li>
-        <a href="https://ashton.website/kaomoji/">Kaomoji</a>
-        <p>Copyable Unicode text faces.</p>
-      </li>
-      <li>
-        <a href="https://ashton.website/neskowin-coast-fighter/">Neskowin Coast Fighter</a>
-        <p>Browser fighting game inspired by the Oregon coast.</p>
-      </li>
-      <li>
-        <a href="https://marketplace.visualstudio.com/items?itemName=AshtonShears.ash-vscode-tools">Ash VS Code Tools</a>
-        <p>PDF reader and citation tools for VS Code.</p>
-      </li>
-    </ul>
-  </main>
-  <footer>
-    <a href="https://github.com/ashears">GitHub</a>
-    <a href="https://linkedin.com/in/ashtonshears">LinkedIn</a>
-    <a href="mailto:shears.ash@gmail.com">Email</a>
-  </footer>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="shell" id="top">
+    <header class="site-bar">
+      <a class="site-name" href="/" aria-current="page">ashton.website</a>
+      <nav class="link-list" aria-label="Main">
+        <a href="#projects">Projects</a>
+        <a href="/blog/">Blog</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <section class="hero" aria-labelledby="home-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span aria-hidden="true">~/</span> Personal homepage</p>
+          <h1 id="home-title">Ashton<br>Shears<span>.</span></h1>
+          <p>I build browser tools, web games, and a PDF reader for VS Code.</p>
+        </div>
+        <div class="illustration" aria-hidden="true">
+          <div class="illustration-bar"><i></i><i></i><i></i></div>
+          <div class="illustration-screen">
+            <div class="globe"><i></i><i></i><i></i></div>
+            <span class="star star-one">+</span>
+            <span class="star star-two">+</span>
+            <span class="star star-three">+</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <h2 id="projects-title">Selected projects</h2>
+          <a href="https://github.com/ashears?tab=repositories">More on GitHub</a>
+        </div>
+        <ul class="project-list">
+          <li>
+            <article class="project">
+              <div>
+                <p class="project-type"><span aria-hidden="true">▸</span> Editor extension</p>
+                <h3>Ash VS Code Tools</h3>
+              </div>
+              <div>
+                <p>A custom PDF editor for VS Code. It renders and searches local PDFs, copies passages with page citations, and exposes PDF search and page-reading tools to Copilot.</p>
+                <div class="link-list project-links">
+                  <a href="https://marketplace.visualstudio.com/items?itemName=AshtonShears.ash-vscode-tools">Marketplace<span class="visually-hidden"> — Ash VS Code Tools</span></a>
+                  <a href="https://github.com/ashears/ash-vscode-tools">Source<span class="visually-hidden"> — Ash VS Code Tools</span></a>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="project">
+              <div>
+                <p class="project-type"><span aria-hidden="true">▸</span> Browser game</p>
+                <h3>Neskowin Coast Fighter</h3>
+              </div>
+              <div>
+                <p>A 2D fighting game set on the Oregon coast, built with Phaser and TypeScript. A WebSocket relay carries player input and match state for online play.</p>
+                <div class="link-list project-links">
+                  <a href="/neskowin-coast-fighter/">Play<span class="visually-hidden"> Neskowin Coast Fighter</span></a>
+                  <a href="https://github.com/ashears/neskowin-coast-fighter">Source<span class="visually-hidden"> — Neskowin Coast Fighter</span></a>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="project">
+              <div>
+                <p class="project-type"><span aria-hidden="true">▸</span> Game companion</p>
+                <h3>MTG Pack Battle</h3>
+              </div>
+              <div>
+                <p>A rules site and starting-token randomizer for one-booster Magic games. The browser handles the rolls and remembers your settings. Node tests cover sampling and settings recovery.</p>
+                <div class="link-list project-links">
+                  <a href="/MTG-Pack-Battle/">Open project<span class="visually-hidden"> — MTG Pack Battle</span></a>
+                  <a href="https://github.com/ashears/MTG-Pack-Battle">Source<span class="visually-hidden"> — MTG Pack Battle</span></a>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="project">
+              <div>
+                <p class="project-type"><span aria-hidden="true">▸</span> Static site</p>
+                <h3>Recipes</h3>
+              </div>
+              <div>
+                <p>My personal cookbook. A Node.js build validates recipe data and generates static pages. Ingredient checkmarks are saved in the browser.</p>
+                <div class="link-list project-links">
+                  <a href="/ashton-recipes/">Browse recipes</a>
+                  <a href="https://github.com/ashears/ashton-recipes">Source<span class="visually-hidden"> — Recipes</span></a>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="project">
+              <div>
+                <p class="project-type"><span aria-hidden="true">▸</span> Web utility</p>
+                <h3>Kaomoji</h3>
+              </div>
+              <div>
+                <p>A filterable board of Unicode text faces. It uses vanilla JavaScript to render the catalog and the browser clipboard API for one-click copying.</p>
+                <div class="link-list project-links">
+                  <a href="/kaomoji/">Open project<span class="visually-hidden"> — Kaomoji</span></a>
+                  <a href="https://github.com/ashears/kaomoji">Source<span class="visually-hidden"> — Kaomoji</span></a>
+                </div>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div>
+        <h2>Get in touch</h2>
+        <a href="mailto:shears.ash@gmail.com">shears.ash@gmail.com</a>
+      </div>
+      <nav class="link-list" aria-label="Elsewhere">
+        <a href="https://github.com/ashears">GitHub</a>
+        <a href="https://linkedin.com/in/ashtonshears">LinkedIn</a>
+        <a href="#top">Top</a>
+      </nav>
+    </footer>
+  </div>
 </body>
 </html>

@@ -8,11 +8,19 @@
   <link rel="stylesheet" href="{{ '/assets/css/personal-site.css' | relative_url }}">
 </head>
 <body>
-  <header>
-    <a href="{{ '/' | relative_url }}">Ashton Shears</a>
-  </header>
-  <main>
-    {{ content }}
-  </main>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="shell">
+    <header class="site-bar">
+      <a class="site-name" href="{{ '/' | relative_url }}">ashton.website</a>
+      <nav class="link-list" aria-label="Main">
+        <a href="{{ '/' | relative_url }}#projects">Projects</a>
+        <a href="{{ '/blog/' | relative_url }}"{% if page.url == '/blog/' %} aria-current="page"{% endif %}>Blog</a>
+        <a href="{{ '/' | relative_url }}#contact">Contact</a>
+      </nav>
+    </header>
+    <main class="journal" id="main" tabindex="-1">
+      {{ content }}
+    </main>
+  </div>
 </body>
 </html>
